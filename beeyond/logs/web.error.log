@@ -1,0 +1,473 @@
+[2026-08-04 12:06:26 +0700] [19203] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:06:26 +0700] [19203] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:26 +0700] [19203] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:27 +0700] [19203] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:27 +0700] [19203] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:28 +0700] [19203] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:28 +0700] [19203] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:29 +0700] [19203] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:29 +0700] [19203] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:30 +0700] [19203] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:30 +0700] [19203] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:31 +0700] [19203] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:06:33 +0700] [19252] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:06:33 +0700] [19252] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:33 +0700] [19252] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:34 +0700] [19252] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:34 +0700] [19252] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:35 +0700] [19252] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:35 +0700] [19252] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:36 +0700] [19252] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:36 +0700] [19252] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:37 +0700] [19252] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:37 +0700] [19252] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:38 +0700] [19252] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:06:40 +0700] [19262] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:06:40 +0700] [19262] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:40 +0700] [19262] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:41 +0700] [19262] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:41 +0700] [19262] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:42 +0700] [19262] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:42 +0700] [19262] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:43 +0700] [19262] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:43 +0700] [19262] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:44 +0700] [19262] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:44 +0700] [19262] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:45 +0700] [19262] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:06:46 +0700] [19273] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:06:46 +0700] [19273] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:46 +0700] [19273] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:47 +0700] [19273] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:47 +0700] [19273] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:48 +0700] [19273] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:48 +0700] [19273] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:49 +0700] [19273] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:49 +0700] [19273] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:50 +0700] [19273] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:50 +0700] [19273] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:51 +0700] [19273] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:06:53 +0700] [19282] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:06:53 +0700] [19282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:53 +0700] [19282] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:54 +0700] [19282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:54 +0700] [19282] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:55 +0700] [19282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:55 +0700] [19282] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:56 +0700] [19282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:56 +0700] [19282] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:57 +0700] [19282] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:57 +0700] [19282] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:06:58 +0700] [19282] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:06:59 +0700] [19288] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:06:59 +0700] [19288] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:06:59 +0700] [19288] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:00 +0700] [19288] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:00 +0700] [19288] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:01 +0700] [19288] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:01 +0700] [19288] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:02 +0700] [19288] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:02 +0700] [19288] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:03 +0700] [19288] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:03 +0700] [19288] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:04 +0700] [19288] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:07:06 +0700] [19298] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:07:06 +0700] [19298] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:06 +0700] [19298] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:07 +0700] [19298] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:07 +0700] [19298] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:08 +0700] [19298] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:08 +0700] [19298] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:09 +0700] [19298] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:09 +0700] [19298] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:10 +0700] [19298] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:10 +0700] [19298] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:11 +0700] [19298] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:07:14 +0700] [19305] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:07:14 +0700] [19305] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:14 +0700] [19305] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:15 +0700] [19305] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:15 +0700] [19305] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:16 +0700] [19305] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:16 +0700] [19305] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:17 +0700] [19305] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:17 +0700] [19305] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:18 +0700] [19305] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:18 +0700] [19305] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:19 +0700] [19305] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:07:20 +0700] [19314] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:07:20 +0700] [19314] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:20 +0700] [19314] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:21 +0700] [19314] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:21 +0700] [19314] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:22 +0700] [19314] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:22 +0700] [19314] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:23 +0700] [19314] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:23 +0700] [19314] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:24 +0700] [19314] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:24 +0700] [19314] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:25 +0700] [19314] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:07:27 +0700] [19331] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:07:27 +0700] [19331] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:27 +0700] [19331] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:28 +0700] [19331] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:28 +0700] [19331] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:29 +0700] [19331] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:29 +0700] [19331] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:30 +0700] [19331] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:30 +0700] [19331] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:31 +0700] [19331] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:31 +0700] [19331] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:32 +0700] [19331] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:07:34 +0700] [19337] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:07:34 +0700] [19337] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:34 +0700] [19337] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:35 +0700] [19337] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:35 +0700] [19337] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:36 +0700] [19337] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:36 +0700] [19337] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:37 +0700] [19337] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:37 +0700] [19337] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:38 +0700] [19337] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2026-08-04 12:07:38 +0700] [19337] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2026-08-04 12:07:39 +0700] [19337] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2026-08-04 12:07:54 +0700] [19374] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:07:54 +0700] [19374] [INFO] Listening at: http://127.0.0.1:8000 (19374)
+[2026-08-04 12:07:54 +0700] [19374] [INFO] Using worker: sync
+[2026-08-04 12:07:54 +0700] [19407] [INFO] Booting worker with pid: 19407
+[2026-08-04 12:07:55 +0700] [19408] [INFO] Booting worker with pid: 19408
+[2026-08-04 12:07:55 +0700] [19409] [INFO] Booting worker with pid: 19409
+[2026-08-04 12:07:55 +0700] [19410] [INFO] Booting worker with pid: 19410
+[2026-08-04 12:07:55 +0700] [19411] [INFO] Booting worker with pid: 19411
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+[2026-08-04 12:24:33 +0700] [19374] [INFO] Handling signal: term
+[2026-08-04 12:24:33 +0700] [19409] [INFO] Worker exiting (pid: 19409)
+[2026-08-04 12:24:33 +0700] [19408] [INFO] Worker exiting (pid: 19408)
+[2026-08-04 12:24:33 +0700] [19411] [INFO] Worker exiting (pid: 19411)
+[2026-08-04 12:24:33 +0700] [19407] [INFO] Worker exiting (pid: 19407)
+[2026-08-04 12:24:33 +0700] [19410] [INFO] Worker exiting (pid: 19410)
+[2026-08-04 12:24:34 +0700] [19374] [INFO] Shutting down: Master
+[2026-08-04 12:24:36 +0700] [20960] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:24:36 +0700] [20960] [INFO] Listening at: http://127.0.0.1:8000 (20960)
+[2026-08-04 12:24:36 +0700] [20960] [INFO] Using worker: sync
+[2026-08-04 12:24:36 +0700] [21003] [INFO] Booting worker with pid: 21003
+[2026-08-04 12:24:36 +0700] [21004] [INFO] Booting worker with pid: 21004
+[2026-08-04 12:24:36 +0700] [21005] [INFO] Booting worker with pid: 21005
+[2026-08-04 12:24:36 +0700] [21006] [INFO] Booting worker with pid: 21006
+[2026-08-04 12:24:36 +0700] [21007] [INFO] Booting worker with pid: 21007
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+[2026-08-04 12:27:25 +0700] [20960] [INFO] Handling signal: term
+[2026-08-04 12:27:25 +0700] [21004] [INFO] Worker exiting (pid: 21004)
+[2026-08-04 12:27:25 +0700] [21007] [INFO] Worker exiting (pid: 21007)
+[2026-08-04 12:27:25 +0700] [21003] [INFO] Worker exiting (pid: 21003)
+[2026-08-04 12:27:25 +0700] [21005] [INFO] Worker exiting (pid: 21005)
+[2026-08-04 12:27:25 +0700] [21006] [INFO] Worker exiting (pid: 21006)
+[2026-08-04 12:27:25 +0700] [20960] [INFO] Shutting down: Master
+[2026-08-04 12:27:27 +0700] [21061] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:27:27 +0700] [21061] [INFO] Listening at: http://127.0.0.1:8000 (21061)
+[2026-08-04 12:27:27 +0700] [21061] [INFO] Using worker: sync
+[2026-08-04 12:27:27 +0700] [21093] [INFO] Booting worker with pid: 21093
+[2026-08-04 12:27:27 +0700] [21094] [INFO] Booting worker with pid: 21094
+[2026-08-04 12:27:28 +0700] [21095] [INFO] Booting worker with pid: 21095
+[2026-08-04 12:27:28 +0700] [21096] [INFO] Booting worker with pid: 21096
+[2026-08-04 12:27:28 +0700] [21097] [INFO] Booting worker with pid: 21097
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+[2026-08-04 12:30:55 +0700] [21061] [INFO] Handling signal: term
+[2026-08-04 12:30:55 +0700] [21093] [INFO] Worker exiting (pid: 21093)
+[2026-08-04 12:30:55 +0700] [21094] [INFO] Worker exiting (pid: 21094)
+[2026-08-04 12:30:55 +0700] [21095] [INFO] Worker exiting (pid: 21095)
+[2026-08-04 12:30:55 +0700] [21096] [INFO] Worker exiting (pid: 21096)
+[2026-08-04 12:30:55 +0700] [21097] [INFO] Worker exiting (pid: 21097)
+[2026-08-04 12:30:56 +0700] [21061] [INFO] Shutting down: Master
+[2026-08-04 12:30:59 +0700] [21407] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:30:59 +0700] [21407] [INFO] Listening at: http://127.0.0.1:8000 (21407)
+[2026-08-04 12:30:59 +0700] [21407] [INFO] Using worker: sync
+[2026-08-04 12:30:59 +0700] [21450] [INFO] Booting worker with pid: 21450
+[2026-08-04 12:30:59 +0700] [21451] [INFO] Booting worker with pid: 21451
+[2026-08-04 12:30:59 +0700] [21452] [INFO] Booting worker with pid: 21452
+[2026-08-04 12:30:59 +0700] [21453] [INFO] Booting worker with pid: 21453
+[2026-08-04 12:30:59 +0700] [21454] [INFO] Booting worker with pid: 21454
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+[2026-08-04 12:33:43 +0700] [21407] [INFO] Handling signal: term
+[2026-08-04 12:33:43 +0700] [21450] [INFO] Worker exiting (pid: 21450)
+[2026-08-04 12:33:43 +0700] [21453] [INFO] Worker exiting (pid: 21453)
+[2026-08-04 12:33:43 +0700] [21451] [INFO] Worker exiting (pid: 21451)
+[2026-08-04 12:33:43 +0700] [21452] [INFO] Worker exiting (pid: 21452)
+[2026-08-04 12:33:43 +0700] [21454] [INFO] Worker exiting (pid: 21454)
+[2026-08-04 12:33:43 +0700] [21407] [INFO] Shutting down: Master
+[2026-08-04 12:33:47 +0700] [21555] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:33:47 +0700] [21555] [INFO] Listening at: http://127.0.0.1:8000 (21555)
+[2026-08-04 12:33:47 +0700] [21555] [INFO] Using worker: sync
+[2026-08-04 12:33:47 +0700] [21591] [INFO] Booting worker with pid: 21591
+[2026-08-04 12:33:47 +0700] [21593] [INFO] Booting worker with pid: 21593
+[2026-08-04 12:33:47 +0700] [21594] [INFO] Booting worker with pid: 21594
+[2026-08-04 12:33:47 +0700] [21595] [INFO] Booting worker with pid: 21595
+[2026-08-04 12:33:47 +0700] [21596] [INFO] Booting worker with pid: 21596
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/model/document.py:169: UserWarning: DocType doesn't support lazy loading
+  warnings.warn("DocType doesn't support lazy loading", stacklevel=1)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/model/document.py:169: UserWarning: DocType doesn't support lazy loading
+  warnings.warn("DocType doesn't support lazy loading", stacklevel=1)
+[2026-08-04 12:41:56 +0700] [21555] [INFO] Handling signal: term
+[2026-08-04 12:41:56 +0700] [21594] [INFO] Worker exiting (pid: 21594)
+[2026-08-04 12:41:56 +0700] [21591] [INFO] Worker exiting (pid: 21591)
+[2026-08-04 12:41:56 +0700] [21593] [INFO] Worker exiting (pid: 21593)
+[2026-08-04 12:41:56 +0700] [21595] [INFO] Worker exiting (pid: 21595)
+[2026-08-04 12:41:56 +0700] [21596] [INFO] Worker exiting (pid: 21596)
+[2026-08-04 12:41:57 +0700] [21555] [INFO] Shutting down: Master
+[2026-08-04 12:41:59 +0700] [21737] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 12:41:59 +0700] [21737] [INFO] Listening at: http://127.0.0.1:8000 (21737)
+[2026-08-04 12:41:59 +0700] [21737] [INFO] Using worker: sync
+[2026-08-04 12:41:59 +0700] [21769] [INFO] Booting worker with pid: 21769
+[2026-08-04 12:41:59 +0700] [21770] [INFO] Booting worker with pid: 21770
+[2026-08-04 12:42:00 +0700] [21771] [INFO] Booting worker with pid: 21771
+[2026-08-04 12:42:00 +0700] [21772] [INFO] Booting worker with pid: 21772
+[2026-08-04 12:42:00 +0700] [21773] [INFO] Booting worker with pid: 21773
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+[2026-08-04 16:07:05 +0700] [21737] [INFO] Handling signal: term
+[2026-08-04 16:07:05 +0700] [21771] [INFO] Worker exiting (pid: 21771)
+[2026-08-04 16:07:05 +0700] [21773] [INFO] Worker exiting (pid: 21773)
+[2026-08-04 16:07:05 +0700] [21770] [INFO] Worker exiting (pid: 21770)
+[2026-08-04 16:07:05 +0700] [21772] [INFO] Worker exiting (pid: 21772)
+[2026-08-04 16:07:05 +0700] [21769] [INFO] Worker exiting (pid: 21769)
+[2026-08-04 16:07:06 +0700] [21737] [INFO] Shutting down: Master
+[2026-08-04 16:07:34 +0700] [891] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 16:07:34 +0700] [891] [INFO] Listening at: http://127.0.0.1:8000 (891)
+[2026-08-04 16:07:34 +0700] [891] [INFO] Using worker: sync
+[2026-08-04 16:07:34 +0700] [935] [INFO] Booting worker with pid: 935
+[2026-08-04 16:07:34 +0700] [936] [INFO] Booting worker with pid: 936
+[2026-08-04 16:07:34 +0700] [937] [INFO] Booting worker with pid: 937
+[2026-08-04 16:07:34 +0700] [938] [INFO] Booting worker with pid: 938
+[2026-08-04 16:07:34 +0700] [939] [INFO] Booting worker with pid: 939
+[2026-08-04 16:22:36 +0700] [891] [INFO] Handling signal: term
+[2026-08-04 16:22:36 +0700] [935] [INFO] Worker exiting (pid: 935)
+[2026-08-04 16:22:36 +0700] [937] [INFO] Worker exiting (pid: 937)
+[2026-08-04 16:22:36 +0700] [936] [INFO] Worker exiting (pid: 936)
+[2026-08-04 16:22:36 +0700] [938] [INFO] Worker exiting (pid: 938)
+[2026-08-04 16:22:36 +0700] [939] [INFO] Worker exiting (pid: 939)
+[2026-08-04 16:22:37 +0700] [891] [INFO] Shutting down: Master
+[2026-08-04 16:23:06 +0700] [866] [INFO] Starting gunicorn 23.0.0
+[2026-08-04 16:23:06 +0700] [866] [INFO] Listening at: http://127.0.0.1:8000 (866)
+[2026-08-04 16:23:06 +0700] [866] [INFO] Using worker: sync
+[2026-08-04 16:23:06 +0700] [941] [INFO] Booting worker with pid: 941
+[2026-08-04 16:23:06 +0700] [942] [INFO] Booting worker with pid: 942
+[2026-08-04 16:23:06 +0700] [943] [INFO] Booting worker with pid: 943
+[2026-08-04 16:23:07 +0700] [944] [INFO] Booting worker with pid: 944
+[2026-08-04 16:23:07 +0700] [945] [INFO] Booting worker with pid: 945
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/model/document.py:169: UserWarning: DocType doesn't support lazy loading
+  warnings.warn("DocType doesn't support lazy loading", stacklevel=1)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/model/document.py:169: UserWarning: DocType doesn't support lazy loading
+  warnings.warn("DocType doesn't support lazy loading", stacklevel=1)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/model/document.py:169: UserWarning: DocType doesn't support lazy loading
+  warnings.warn("DocType doesn't support lazy loading", stacklevel=1)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/model/document.py:169: UserWarning: DocType doesn't support lazy loading
+  warnings.warn("DocType doesn't support lazy loading", stacklevel=1)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/model/document.py:169: UserWarning: DocType doesn't support lazy loading
+  warnings.warn("DocType doesn't support lazy loading", stacklevel=1)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/model/document.py:169: UserWarning: DocType doesn't support lazy loading
+  warnings.warn("DocType doesn't support lazy loading", stacklevel=1)
+[2026-08-07 15:00:26 +0700] [941] [WARNING] Invalid request from ip=127.0.0.1: Request Line is too large (8179 > 4094)
+[2026-08-07 15:00:27 +0700] [941] [WARNING] Invalid request from ip=127.0.0.1: Request Line is too large (8183 > 4094)
+[2026-08-07 15:00:28 +0700] [941] [WARNING] Invalid request from ip=127.0.0.1: Request Line is too large (8179 > 4094)
+[2026-08-07 15:00:29 +0700] [941] [WARNING] Invalid request from ip=127.0.0.1: Request Line is too large (8179 > 4094)
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+Ignoring wrong pointing object 8 0 (offset 0)
+Ignoring wrong pointing object 10 0 (offset 0)
+Ignoring wrong pointing object 12 0 (offset 0)
+Ignoring wrong pointing object 14 0 (offset 0)
+Ignoring wrong pointing object 24 0 (offset 0)
+Ignoring wrong pointing object 26 0 (offset 0)
+Ignoring wrong pointing object 28 0 (offset 0)
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+[2026-08-20 12:15:01 +0700] [866] [INFO] Handling signal: term
+[2026-08-20 12:15:01 +0700] [944] [INFO] Worker exiting (pid: 944)
+[2026-08-20 12:15:01 +0700] [941] [INFO] Worker exiting (pid: 941)
+[2026-08-20 12:15:01 +0700] [942] [INFO] Worker exiting (pid: 942)
+[2026-08-20 12:15:01 +0700] [945] [INFO] Worker exiting (pid: 945)
+[2026-08-20 12:15:01 +0700] [943] [INFO] Worker exiting (pid: 943)
+[2026-08-20 12:15:02 +0700] [866] [INFO] Shutting down: Master
+[2026-08-20 12:15:04 +0700] [253144] [INFO] Starting gunicorn 23.0.0
+[2026-08-20 12:15:04 +0700] [253144] [INFO] Listening at: http://127.0.0.1:8000 (253144)
+[2026-08-20 12:15:04 +0700] [253144] [INFO] Using worker: sync
+[2026-08-20 12:15:04 +0700] [253156] [INFO] Booting worker with pid: 253156
+[2026-08-20 12:15:04 +0700] [253157] [INFO] Booting worker with pid: 253157
+[2026-08-20 12:15:04 +0700] [253158] [INFO] Booting worker with pid: 253158
+[2026-08-20 12:15:04 +0700] [253159] [INFO] Booting worker with pid: 253159
+[2026-08-20 12:15:04 +0700] [253160] [INFO] Booting worker with pid: 253160
+[2026-08-20 12:16:44 +0700] [253144] [INFO] Handling signal: term
+[2026-08-20 12:16:44 +0700] [253156] [INFO] Worker exiting (pid: 253156)
+[2026-08-20 12:16:44 +0700] [253157] [INFO] Worker exiting (pid: 253157)
+[2026-08-20 12:16:44 +0700] [253158] [INFO] Worker exiting (pid: 253158)
+[2026-08-20 12:16:44 +0700] [253159] [INFO] Worker exiting (pid: 253159)
+[2026-08-20 12:16:44 +0700] [253160] [INFO] Worker exiting (pid: 253160)
+[2026-08-20 12:16:45 +0700] [253144] [INFO] Shutting down: Master
+[2026-08-20 12:16:46 +0700] [253257] [INFO] Starting gunicorn 23.0.0
+[2026-08-20 12:16:46 +0700] [253257] [INFO] Listening at: http://127.0.0.1:8000 (253257)
+[2026-08-20 12:16:46 +0700] [253257] [INFO] Using worker: sync
+[2026-08-20 12:16:46 +0700] [253269] [INFO] Booting worker with pid: 253269
+[2026-08-20 12:16:46 +0700] [253270] [INFO] Booting worker with pid: 253270
+[2026-08-20 12:16:46 +0700] [253271] [INFO] Booting worker with pid: 253271
+[2026-08-20 12:16:46 +0700] [253272] [INFO] Booting worker with pid: 253272
+[2026-08-20 12:16:46 +0700] [253273] [INFO] Booting worker with pid: 253273
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+[2026-08-20 12:19:10 +0700] [253257] [INFO] Handling signal: term
+[2026-08-20 12:19:10 +0700] [253272] [INFO] Worker exiting (pid: 253272)
+[2026-08-20 12:19:10 +0700] [253269] [INFO] Worker exiting (pid: 253269)
+[2026-08-20 12:19:10 +0700] [253270] [INFO] Worker exiting (pid: 253270)
+[2026-08-20 12:19:10 +0700] [253271] [INFO] Worker exiting (pid: 253271)
+[2026-08-20 12:19:10 +0700] [253273] [INFO] Worker exiting (pid: 253273)
+[2026-08-20 12:19:11 +0700] [253257] [INFO] Shutting down: Master
+[2026-08-20 12:19:12 +0700] [253394] [INFO] Starting gunicorn 23.0.0
+[2026-08-20 12:19:12 +0700] [253394] [INFO] Listening at: http://127.0.0.1:8000 (253394)
+[2026-08-20 12:19:12 +0700] [253394] [INFO] Using worker: sync
+[2026-08-20 12:19:12 +0700] [253406] [INFO] Booting worker with pid: 253406
+[2026-08-20 12:19:13 +0700] [253407] [INFO] Booting worker with pid: 253407
+[2026-08-20 12:19:13 +0700] [253408] [INFO] Booting worker with pid: 253408
+[2026-08-20 12:19:13 +0700] [253409] [INFO] Booting worker with pid: 253409
+[2026-08-20 12:19:13 +0700] [253410] [INFO] Booting worker with pid: 253410
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: System Health Report
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Payment Reconciliation
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/permissions.py:140: UserWarning: Virtual doctypes don't support lazy loading: Permission Inspector
+  doc = frappe.get_lazy_doc(meta.name, doc)
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]
+/home/beeyond/frappe-bench/beeyond/apps/erpnext/erpnext/accounts/utils.py:1206: V16FrappeDeprecationWarning: It was marked on unknown for removal from v16 with note: Use `NumberFormat.from_string()` from `frappe.utils.number_format` instead
+  precision = get_number_format_info(number_format)[2]

@@ -1,0 +1,1290 @@
+Updating Dashboard for frappe
+Updating Dashboard for erpnext
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Has Role</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Has Role</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Has Role</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Task</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Has Role</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Comment</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Task</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 126, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 64, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 35, in document_list
+    return frappe.call(frappe.client.get_list, doctype, **frappe.form_dict)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/__init__.py", line 1145, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/client.py", line 64, in get_list
+    _list = frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1291, in get_list
+    return frappe.model.qb_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/model/qb_query.py", line 203, in execute
+    query = frappe.qb.get_query(**kwargs)
+  File "apps/frappe/frappe/query_builder/utils.py", line 67, in get_query
+    return Engine().get_query(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "apps/frappe/frappe/database/query.py", line 282, in get_query
+    self.check_select_permission()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1506, in check_select_permission
+    self._raise_permission_error()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/database/query.py", line 1509, in _raise_permission_error
+    frappe.throw(
+    ~~~~~~~~~~~~^
+    	title=_("Permission Error"),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	msg=_("Insufficient Permission for {0}").format(frappe.bold(doctype or self.doctype)),
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    	exc=frappe.PermissionError,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.PermissionError: Không đủ quyền cho <strong>Project</strong>
+

@@ -1,0 +1,13 @@
+{
+ "db_name": "_6a6e13d6fd872335",
+ "db_password": "y7K9sAn8zgs1s0ku",
+ "db_type": "mariadb",
+ "db_user": "_6a6e13d6fd872335",
+ "encryption_key": "EPU9jR0-S5nWtCTjWmFe26BNliGwOFINivqvGz0S6Lc=",
+ "installed_apps": [
+  "frappe",
+  "erpnext",
+  "agriculture",
+  "bfarm"
+ ]
+}

@@ -1,0 +1,147 @@
+19191:C 04 Aug 2026 12:06:23.361 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19191:C 04 Aug 2026 12:06:23.361 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19191, just started
+19191:C 04 Aug 2026 12:06:23.361 # Configuration loaded
+19191:M 04 Aug 2026 12:06:23.362 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19191:M 04 Aug 2026 12:06:23.362 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19201:C 04 Aug 2026 12:06:24.587 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19201:C 04 Aug 2026 12:06:24.587 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19201, just started
+19201:C 04 Aug 2026 12:06:24.587 # Configuration loaded
+19201:M 04 Aug 2026 12:06:24.587 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19201:M 04 Aug 2026 12:06:24.587 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19242:C 04 Aug 2026 12:06:27.306 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19242:C 04 Aug 2026 12:06:27.306 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19242, just started
+19242:C 04 Aug 2026 12:06:27.306 # Configuration loaded
+19242:M 04 Aug 2026 12:06:27.307 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19242:M 04 Aug 2026 12:06:27.307 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19250:C 04 Aug 2026 12:06:30.453 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19250:C 04 Aug 2026 12:06:30.454 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19250, just started
+19250:C 04 Aug 2026 12:06:30.454 # Configuration loaded
+19250:M 04 Aug 2026 12:06:30.454 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19250:M 04 Aug 2026 12:06:30.455 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19261:C 04 Aug 2026 12:06:34.874 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19261:C 04 Aug 2026 12:06:34.874 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19261, just started
+19261:C 04 Aug 2026 12:06:34.874 # Configuration loaded
+19261:M 04 Aug 2026 12:06:34.875 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19261:M 04 Aug 2026 12:06:34.875 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19266:C 04 Aug 2026 12:06:39.973 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19266:C 04 Aug 2026 12:06:39.973 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19266, just started
+19266:C 04 Aug 2026 12:06:39.973 # Configuration loaded
+19266:M 04 Aug 2026 12:06:39.973 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19266:M 04 Aug 2026 12:06:39.974 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19272:C 04 Aug 2026 12:06:46.025 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19272:C 04 Aug 2026 12:06:46.025 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19272, just started
+19272:C 04 Aug 2026 12:06:46.025 # Configuration loaded
+19272:M 04 Aug 2026 12:06:46.025 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19272:M 04 Aug 2026 12:06:46.026 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19285:C 04 Aug 2026 12:06:54.030 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19285:C 04 Aug 2026 12:06:54.030 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19285, just started
+19285:C 04 Aug 2026 12:06:54.030 # Configuration loaded
+19285:M 04 Aug 2026 12:06:54.031 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19285:M 04 Aug 2026 12:06:54.031 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19294:C 04 Aug 2026 12:07:02.046 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19294:C 04 Aug 2026 12:07:02.046 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19294, just started
+19294:C 04 Aug 2026 12:07:02.046 # Configuration loaded
+19294:M 04 Aug 2026 12:07:02.046 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19294:M 04 Aug 2026 12:07:02.046 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19304:C 04 Aug 2026 12:07:11.137 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19304:C 04 Aug 2026 12:07:11.137 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19304, just started
+19304:C 04 Aug 2026 12:07:11.138 # Configuration loaded
+19304:M 04 Aug 2026 12:07:11.138 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19304:M 04 Aug 2026 12:07:11.138 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19323:C 04 Aug 2026 12:07:21.784 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19323:C 04 Aug 2026 12:07:21.784 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19323, just started
+19323:C 04 Aug 2026 12:07:21.784 # Configuration loaded
+19323:M 04 Aug 2026 12:07:21.785 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19323:M 04 Aug 2026 12:07:21.785 # Could not create server TCP listening socket 127.0.0.1:13000: bind: Address already in use
+19372:C 04 Aug 2026 12:07:53.499 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19372:C 04 Aug 2026 12:07:53.499 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=19372, just started
+19372:C 04 Aug 2026 12:07:53.499 # Configuration loaded
+19372:M 04 Aug 2026 12:07:53.504 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19372:M 04 Aug 2026 12:07:53.505 * Running mode=standalone, port=13000.
+19372:M 04 Aug 2026 12:07:53.505 # Server initialized
+19372:M 04 Aug 2026 12:07:53.505 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+19372:M 04 Aug 2026 12:07:53.505 * Ready to accept connections
+19372:signal-handler (1785821073) Received SIGTERM scheduling shutdown...
+19372:M 04 Aug 2026 12:24:33.693 # User requested shutdown...
+19372:M 04 Aug 2026 12:24:33.693 * Removing the pid file.
+19372:M 04 Aug 2026 12:24:33.695 # Redis is now ready to exit, bye bye...
+20958:C 04 Aug 2026 12:24:34.752 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+20958:C 04 Aug 2026 12:24:34.752 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=20958, just started
+20958:C 04 Aug 2026 12:24:34.752 # Configuration loaded
+20958:M 04 Aug 2026 12:24:34.752 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+20958:M 04 Aug 2026 12:24:34.756 * Running mode=standalone, port=13000.
+20958:M 04 Aug 2026 12:24:34.756 # Server initialized
+20958:M 04 Aug 2026 12:24:34.756 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+20958:M 04 Aug 2026 12:24:34.756 * Ready to accept connections
+20958:signal-handler (1785821245) Received SIGTERM scheduling shutdown...
+20958:M 04 Aug 2026 12:27:25.391 # User requested shutdown...
+20958:M 04 Aug 2026 12:27:25.391 * Removing the pid file.
+20958:M 04 Aug 2026 12:27:25.391 # Redis is now ready to exit, bye bye...
+21059:C 04 Aug 2026 12:27:26.390 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+21059:C 04 Aug 2026 12:27:26.390 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=21059, just started
+21059:C 04 Aug 2026 12:27:26.390 # Configuration loaded
+21059:M 04 Aug 2026 12:27:26.391 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+21059:M 04 Aug 2026 12:27:26.394 * Running mode=standalone, port=13000.
+21059:M 04 Aug 2026 12:27:26.394 # Server initialized
+21059:M 04 Aug 2026 12:27:26.394 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+21059:M 04 Aug 2026 12:27:26.395 * Ready to accept connections
+21059:signal-handler (1785821455) Received SIGTERM scheduling shutdown...
+21059:M 04 Aug 2026 12:30:55.744 # User requested shutdown...
+21059:M 04 Aug 2026 12:30:55.744 * Removing the pid file.
+21059:M 04 Aug 2026 12:30:55.744 # Redis is now ready to exit, bye bye...
+21405:C 04 Aug 2026 12:30:57.773 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+21405:C 04 Aug 2026 12:30:57.773 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=21405, just started
+21405:C 04 Aug 2026 12:30:57.773 # Configuration loaded
+21405:M 04 Aug 2026 12:30:57.774 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+21405:M 04 Aug 2026 12:30:57.774 * Running mode=standalone, port=13000.
+21405:M 04 Aug 2026 12:30:57.774 # Server initialized
+21405:M 04 Aug 2026 12:30:57.774 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+21405:M 04 Aug 2026 12:30:57.774 * Ready to accept connections
+21405:signal-handler (1785821623) Received SIGTERM scheduling shutdown...
+21405:M 04 Aug 2026 12:33:43.188 # User requested shutdown...
+21405:M 04 Aug 2026 12:33:43.188 * Removing the pid file.
+21405:M 04 Aug 2026 12:33:43.189 # Redis is now ready to exit, bye bye...
+21553:C 04 Aug 2026 12:33:46.207 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+21553:C 04 Aug 2026 12:33:46.207 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=21553, just started
+21553:C 04 Aug 2026 12:33:46.207 # Configuration loaded
+21553:M 04 Aug 2026 12:33:46.207 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+21553:M 04 Aug 2026 12:33:46.208 * Running mode=standalone, port=13000.
+21553:M 04 Aug 2026 12:33:46.208 # Server initialized
+21553:M 04 Aug 2026 12:33:46.208 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+21553:M 04 Aug 2026 12:33:46.208 * Ready to accept connections
+21553:signal-handler (1785822116) Received SIGTERM scheduling shutdown...
+21553:M 04 Aug 2026 12:41:56.608 # User requested shutdown...
+21553:M 04 Aug 2026 12:41:56.608 * Removing the pid file.
+21553:M 04 Aug 2026 12:41:56.608 # Redis is now ready to exit, bye bye...
+21735:C 04 Aug 2026 12:41:58.406 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+21735:C 04 Aug 2026 12:41:58.406 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=21735, just started
+21735:C 04 Aug 2026 12:41:58.406 # Configuration loaded
+21735:M 04 Aug 2026 12:41:58.406 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+21735:M 04 Aug 2026 12:41:58.407 * Running mode=standalone, port=13000.
+21735:M 04 Aug 2026 12:41:58.407 # Server initialized
+21735:M 04 Aug 2026 12:41:58.407 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+21735:M 04 Aug 2026 12:41:58.407 * Ready to accept connections
+21735:signal-handler (1785834426) Received SIGTERM scheduling shutdown...
+21735:M 04 Aug 2026 16:07:06.171 # User requested shutdown...
+21735:M 04 Aug 2026 16:07:06.171 * Removing the pid file.
+21735:M 04 Aug 2026 16:07:06.171 # Redis is now ready to exit, bye bye...
+887:C 04 Aug 2026 16:07:31.626 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+887:C 04 Aug 2026 16:07:31.626 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=887, just started
+887:C 04 Aug 2026 16:07:31.626 # Configuration loaded
+887:M 04 Aug 2026 16:07:31.626 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+887:M 04 Aug 2026 16:07:31.635 * Running mode=standalone, port=13000.
+887:M 04 Aug 2026 16:07:31.635 # Server initialized
+887:M 04 Aug 2026 16:07:31.635 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+887:M 04 Aug 2026 16:07:31.635 * Ready to accept connections
+887:signal-handler (1785835358) Received SIGTERM scheduling shutdown...
+887:M 04 Aug 2026 16:22:38.195 # User requested shutdown...
+887:M 04 Aug 2026 16:22:38.195 * Removing the pid file.
+887:M 04 Aug 2026 16:22:38.195 # Redis is now ready to exit, bye bye...
+864:C 04 Aug 2026 16:23:03.645 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+864:C 04 Aug 2026 16:23:03.645 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=864, just started
+864:C 04 Aug 2026 16:23:03.645 # Configuration loaded
+864:M 04 Aug 2026 16:23:03.647 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+864:M 04 Aug 2026 16:23:03.654 * Running mode=standalone, port=13000.
+864:M 04 Aug 2026 16:23:03.654 # Server initialized
+864:M 04 Aug 2026 16:23:03.654 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+864:M 04 Aug 2026 16:23:03.654 * Ready to accept connections

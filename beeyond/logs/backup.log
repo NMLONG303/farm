@@ -1,0 +1,816 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260804_103001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-04 10:30:03.229473
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260804_103001-bfarm-site_config_backup.json 176.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260804_103001-bfarm-database.sql.gz 2.0MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260804_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-04 18:00:06.660975
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260804_180002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260804_180002-bfarm-database.sql.gz 2.0MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260805_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-05 00:00:04.051495
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260805_000002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260805_000002-bfarm-database.sql.gz 2.0MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260805_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-05 06:00:03.446821
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260805_060001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260805_060001-bfarm-database.sql.gz 2.0MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260805_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-05 12:00:03.939616
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260805_120002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260805_120002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260805_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-05 18:00:03.489886
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260805_180001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260805_180001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260806_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-06 00:00:04.375076
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260806_000002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260806_000002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260806_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-06 06:00:03.576385
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260806_060002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260806_060002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260806_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-06 12:00:04.476651
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260806_120002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260806_120002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260806_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-06 18:00:04.014232
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260806_180002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260806_180002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260807_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-07 00:00:03.751064
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260807_000001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260807_000001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260807_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-07 06:00:03.893446
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260807_060002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260807_060002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260807_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-07 12:00:03.666940
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260807_120001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260807_120001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260807_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-07 18:00:04.250233
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260807_180002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260807_180002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260808_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-08 00:00:03.627518
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260808_000002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260808_000002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260808_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-08 06:00:03.919390
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260808_060002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260808_060002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260808_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-08 12:00:03.640647
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260808_120001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260808_120001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260808_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-08 18:00:04.426180
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260808_180002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260808_180002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260809_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-09 00:00:04.077740
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260809_000002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260809_000002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260809_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-09 06:00:03.347610
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260809_060001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260809_060001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260809_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-09 12:00:03.659821
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260809_120001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260809_120001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260809_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-09 18:00:03.813062
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260809_180002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260809_180002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260810_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-10 00:00:04.215244
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260810_000002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260810_000002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260810_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-10 06:00:03.238787
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260810_060001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260810_060001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260810_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-10 12:00:03.651005
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260810_120001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260810_120001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260810_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-10 18:00:03.893414
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260810_180002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260810_180002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260811_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-11 00:00:03.159086
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260811_000001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260811_000001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260811_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-11 06:00:03.330856
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260811_060001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260811_060001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260811_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-11 12:00:03.556757
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260811_120001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260811_120001-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260811_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-11 18:00:04.162461
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260811_180002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260811_180002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260812_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-12 00:00:03.610218
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260812_000001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260812_000001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260812_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-12 06:00:03.873652
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260812_060002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260812_060002-bfarm-database.sql.gz 2.1MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260812_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-12 12:00:04.390091
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260812_120002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260812_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260812_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-12 18:00:04.059175
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260812_180002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260812_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260813_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-13 00:00:03.493323
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260813_000001-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260813_000001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260813_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-13 06:00:03.646125
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260813_060002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260813_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260813_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-13 12:00:04.071114
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260813_120002-bfarm-site_config_backup.json 193.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260813_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260813_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-13 18:00:03.468533
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260813_180001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260813_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260814_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-14 00:00:03.655068
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260814_000002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260814_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260814_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-14 06:00:03.667139
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260814_060002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260814_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260814_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-14 12:00:03.963883
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260814_120002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260814_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260814_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-14 18:00:03.350332
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260814_180001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260814_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260815_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-15 00:00:03.599959
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260815_000002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260815_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260815_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-15 06:00:04.071096
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260815_060002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260815_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260815_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-15 12:00:03.217182
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260815_120001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260815_120001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260815_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-15 18:00:03.550806
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260815_180001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260815_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260816_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-16 00:00:04.101084
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260816_000002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260816_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260816_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-16 06:00:03.202710
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260816_060001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260816_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260816_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-16 12:00:03.538884
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260816_120001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260816_120001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260816_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-16 18:00:03.725005
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260816_180002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260816_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260817_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-17 00:00:04.217936
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260817_000002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260817_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260817_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-17 06:00:03.253371
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260817_060001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260817_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260817_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-17 12:00:03.521416
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260817_120001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260817_120001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260817_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-17 18:00:03.644281
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260817_180002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260817_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260818_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-18 00:00:04.195964
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260818_000002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260818_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260818_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-18 06:00:03.435631
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260818_060001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260818_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260818_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-18 12:00:04.048028
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260818_120002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260818_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260818_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-18 18:00:03.282909
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260818_180001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260818_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260819_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-19 00:00:03.799799
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260819_000002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260819_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260819_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-19 06:00:03.993547
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260819_060002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260819_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260819_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-19 12:00:03.497626
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260819_120001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260819_120001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260819_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-19 18:00:03.831652
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260819_180002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260819_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260820_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-20 00:00:04.480105
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260820_000002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260820_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260820_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-20 06:00:03.877357
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260820_060002-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260820_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260820_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-20 12:00:03.181907
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260820_120001-bfarm-site_config_backup.json 260.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260820_120001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260820_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-20 18:00:03.630862
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260820_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260820_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260821_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-21 00:00:03.923431
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260821_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260821_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260821_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-21 06:00:03.205438
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260821_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260821_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260821_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-21 12:00:03.740291
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260821_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260821_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260821_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-21 18:00:03.891714
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260821_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260821_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260822_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-22 00:00:04.207120
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260822_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260822_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260822_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-22 06:00:03.388582
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260822_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260822_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260822_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-22 12:00:04.241468
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260822_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260822_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260822_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-22 18:00:03.568054
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260822_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260822_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260823_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-23 00:00:04.271493
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260823_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260823_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260823_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-23 06:00:03.797881
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260823_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260823_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260823_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-23 12:00:04.287973
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260823_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260823_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260823_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-23 18:00:03.559450
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260823_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260823_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260824_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-24 00:00:03.986492
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260824_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260824_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260824_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-24 06:00:03.287293
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260824_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260824_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260824_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-24 12:00:03.497473
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260824_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260824_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260824_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-24 18:00:03.808109
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260824_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260824_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260825_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-25 00:00:04.375927
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260825_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260825_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260825_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-25 06:00:03.405150
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260825_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260825_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260825_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-25 12:00:03.930709
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260825_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260825_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260825_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-25 18:00:03.280994
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260825_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260825_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260826_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-26 00:00:04.001253
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260826_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260826_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260826_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-26 06:00:03.147611
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260826_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260826_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260826_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-26 12:00:03.393581
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260826_120001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260826_120001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260826_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-26 18:00:03.597113
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260826_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260826_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260827_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-27 00:00:03.978449
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260827_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260827_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260827_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-27 06:00:03.123538
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260827_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260827_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260827_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-27 12:00:03.245444
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260827_120001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260827_120001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260827_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-27 18:00:03.510888
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260827_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260827_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260828_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-28 00:00:04.143457
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260828_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260828_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260828_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-28 06:00:03.449554
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260828_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260828_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260828_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-28 12:00:03.889093
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260828_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260828_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260828_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-28 18:00:04.058214
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260828_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260828_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260829_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-29 00:00:03.284929
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260829_000001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260829_000001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260829_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-29 06:00:03.629830
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260829_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260829_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260829_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-29 12:00:03.686877
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260829_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260829_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260829_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-29 18:00:04.128473
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260829_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260829_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260830_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-30 00:00:03.420304
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260830_000001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260830_000001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260830_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-30 06:00:03.520903
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260830_060002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260830_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260830_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-30 12:00:03.900058
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260830_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260830_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260830_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-30 18:00:03.210061
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260830_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260830_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260831_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-31 00:00:03.441670
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260831_000001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260831_000001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260831_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-31 06:00:03.587215
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260831_060002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260831_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260831_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-31 12:00:03.808349
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260831_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260831_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260831_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-08-31 18:00:03.877613
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260831_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260831_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260901_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-01 00:00:04.203833
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260901_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260901_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260901_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-01 06:00:03.501216
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260901_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260901_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260901_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-01 12:00:03.716872
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260901_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260901_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260901_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-01 18:00:04.172076
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260901_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260901_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260902_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-02 00:00:03.641452
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260902_000001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260902_000001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260902_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-02 06:00:03.822889
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260902_060002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260902_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260902_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-02 12:00:03.938721
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260902_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260902_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260902_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-02 18:00:03.024506
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260902_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260902_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260903_000001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-03 00:00:03.446897
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260903_000001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260903_000001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260903_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-03 06:00:03.739259
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260903_060002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260903_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260903_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-03 12:00:04.214516
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260903_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260903_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260903_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-03 18:00:03.585616
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260903_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260903_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260904_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-04 00:00:03.695703
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260904_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260904_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260904_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-04 06:00:03.753903
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260904_060002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260904_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260904_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-04 12:00:04.227747
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260904_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260904_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260904_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-04 18:00:03.629139
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260904_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260904_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260905_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-05 00:00:04.096715
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260905_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260905_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260905_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-05 06:00:03.294328
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260905_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260905_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260905_120002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-05 12:00:04.091455
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260905_120002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260905_120002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260905_180001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-05 18:00:03.288940
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260905_180001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260905_180001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260906_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-06 00:00:03.795832
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260906_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260906_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260906_060002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-06 06:00:04.175353
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260906_060002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260906_060002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260906_120001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-06 12:00:03.366423
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260906_120001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260906_120001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260906_180002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-06 18:00:03.694903
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260906_180002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260906_180002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260907_000002-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-07 00:00:04.220093
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260907_000002-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260907_000002-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6a6e13d6fd872335 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6a6e13d6fd872335 | /usr/bin/gzip >> ./bfarm/private/backups/20260907_060001-bfarm-database.sql.gz
+
+Backup Summary for bfarm at 2026-09-07 06:00:03.434992
+Config  : /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260907_060001-bfarm-site_config_backup.json 271.0B
+Database: /home/beeyond/frappe-bench/beeyond/sites/bfarm/private/backups/20260907_060001-bfarm-database.sql.gz 2.2MiB
+Backup for Site bfarm has been successfully completed

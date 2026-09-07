@@ -1,0 +1,73 @@
+2026-08-04 11:27:48,245 ERROR frappe Failed to capture exception
+Site: bfarm
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/sentry.py", line 111, in capture_exception
+    set_scope(scope)
+    ~~~~~~~~~^^^^^^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/sentry.py", line 67, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/local.py", line 66, in __getattr__
+    return getattr(self._get_current_object(), name)
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/local.py", line 55, in _get_current_object
+    raise RuntimeError("object is not bound") from None
+RuntimeError: object is not bound
+2026-08-04 11:27:48,253 ERROR frappe Failed to capture exception
+Site: bfarm
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/sentry.py", line 111, in capture_exception
+    set_scope(scope)
+    ~~~~~~~~~^^^^^^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/sentry.py", line 67, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/local.py", line 66, in __getattr__
+    return getattr(self._get_current_object(), name)
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/local.py", line 55, in _get_current_object
+    raise RuntimeError("object is not bound") from None
+RuntimeError: object is not bound
+2026-08-04 11:27:48,259 ERROR frappe Failed to capture exception
+Site: bfarm
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/sentry.py", line 111, in capture_exception
+    set_scope(scope)
+    ~~~~~~~~~^^^^^^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/sentry.py", line 67, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/local.py", line 66, in __getattr__
+    return getattr(self._get_current_object(), name)
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/local.py", line 55, in _get_current_object
+    raise RuntimeError("object is not bound") from None
+RuntimeError: object is not bound
+2026-08-04 11:27:48,266 ERROR frappe Failed to capture exception
+Site: bfarm
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/sentry.py", line 111, in capture_exception
+    set_scope(scope)
+    ~~~~~~~~~^^^^^^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/sentry.py", line 67, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/local.py", line 66, in __getattr__
+    return getattr(self._get_current_object(), name)
+                   ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/beeyond/frappe-bench/beeyond/apps/frappe/frappe/utils/local.py", line 55, in _get_current_object
+    raise RuntimeError("object is not bound") from None
+RuntimeError: object is not bound
+2026-08-04 12:32:01,456 ERROR frappe New Exception collected in error log
+Site: bfarm
+Form Dict: {'doc': {'name': 'Domain Settings', 'owner': 'Administrator', 'modified': '2026-08-04 09:52:38.863315', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': '0', 'doctype': 'Domain Settings', 'active_domains': [{'docstatus': 0, 'doctype': 'Has Domain', 'name': 'new-has-domain-fniyfpfafm', '__islocal': 1, '__unsaved': 1, 'owner': 'long.nm@beeyond.vn', 'parent': 'Domain Settings', 'parentfield': 'active_domains', 'parenttype': 'Domain Settings', 'idx': 1, 'domain': 'Agriculture'}, {'docstatus': 0, 'doctype': 'Has Domain', 'name': 'new-has-domain-otnlffaeec', '__islocal': 1, '__unsaved': 1, 'owner': 'long.nm@beeyond.vn', 'parent': 'Domain Settings', 'parentfield': 'active_domains', 'parenttype': 'Domain Settings', 'idx': 2, 'domain': 'Manufacturing'}, {'docstatus': 0, 'doctype': 'Has Domain', 'name': 'new-has-domain-jzynpnazpl', '__islocal': 1, '__unsaved': 1, 'owner': 'long.nm@beeyond.vn', 'parent': 'Domain Settings', 'parentfield': 'active_domains', 'parenttype': 'Domain Settings', 'idx': 3, 'domain': 'Retail'}], '__last_sync_on': '2026-08-04T05:31:58.675Z', '__unsaved': 1}, 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-08-06 11:11:57,743 ERROR frappe New Exception collected in error log
+Site: bfarm
+Form Dict: {'doc': {'name': 'Sunfarm_DongPhu', 'owner': 'phong@beeyond.vn', 'creation': '2026-08-06 11:10:48.433459', 'modified': '2026-08-06 11:10:48.433459', 'modified_by': 'phong@beeyond.vn', 'docstatus': 0, 'idx': 0, 'location_name': 'Sunfarm_DongPhu', 'is_container': 0, 'is_group': 0, 'latitude': 11406772592329212, 'longitude': 10688051802174856, 'area': 0, 'lft': 1, 'rgt': 2, 'old_parent': '', 'doctype': 'Location', '__last_sync_on': '2026-08-06T04:10:53.610Z', '__unsaved': 1}, 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2026-08-06 11:14:16,485 ERROR frappe New Exception collected in error log
+Site: bfarm
+Form Dict: {'doc': {'name': 'Sunfarm_DongPhu', 'owner': 'phong@beeyond.vn', 'creation': '2026-08-06 11:10:48.433459', 'modified': '2026-08-06 11:13:48.143828', 'modified_by': 'phong@beeyond.vn', 'docstatus': 0, 'idx': 0, 'location_name': 'Sunfarm_DongPhu', 'is_container': 0, 'is_group': 0, 'latitude': 11406772592329212, 'longitude': 10688052509197016, 'area': 0, 'lft': 1, 'rgt': 2, 'old_parent': '', 'doctype': 'Location', '__unsaved': 1}, 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

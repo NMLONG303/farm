@@ -1,0 +1,703 @@
+2026-08-04 11:13:21,127 DEBUG cd beeyond && uv venv env --seed --python python3.14
+2026-08-04 11:13:21,222 LOG Getting frappe
+2026-08-04 11:13:21,223 DEBUG cd beeyond/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2026-08-04 11:13:27,693 LOG Installing frappe
+2026-08-04 11:13:27,696 DEBUG cd /home/beeyond/frappe-bench/beeyond && uv pip install --quiet -e /home/beeyond/frappe-bench/beeyond/apps/frappe  --python /home/beeyond/frappe-bench/beeyond/env/bin/python
+2026-08-04 11:13:30,766 DEBUG cd /home/beeyond/frappe-bench/beeyond/apps/frappe && yarn install --check-files
+2026-08-04 11:14:06,735 DEBUG cd beeyond && bench build
+2026-08-04 11:14:06,907 INFO /home/beeyond/.local/bin/bench build
+2026-08-04 11:14:19,754 LOG setting up backups
+2026-08-04 11:14:19,784 LOG backups were set up
+2026-08-04 11:14:19,785 INFO Bench beeyond initialized
+2026-08-04 11:19:39,018 INFO /home/beeyond/.local/bin/bench new-site bfarm
+2026-08-04 11:22:08,260 INFO /home/beeyond/.local/bin/bench new-site bfarm
+2026-08-04 11:23:05,334 INFO /home/beeyond/.local/bin/bench --site bfarm install-app erpnext
+2026-08-04 11:24:12,423 INFO /home/beeyond/.local/bin/bench pip install -e apps/erpnext
+2026-08-04 11:24:15,230 INFO /home/beeyond/.local/bin/bench pip install -e apps/agriculture
+2026-08-04 11:24:50,304 INFO /home/beeyond/.local/bin/bench pip install --no-build-isolation -e apps/agriculture
+2026-08-04 11:25:07,119 INFO /home/beeyond/.local/bin/bench pip install setuptools wheel
+2026-08-04 11:25:12,115 INFO /home/beeyond/.local/bin/bench pip install --no-build-isolation -e apps/agriculture
+2026-08-04 11:25:22,152 INFO /home/beeyond/.local/bin/bench --site bfarm install-app erpnext
+2026-08-04 11:25:23,491 INFO /home/beeyond/.local/bin/bench --site bfarm install-app agriculture
+2026-08-04 11:26:53,607 INFO /home/beeyond/.local/bin/bench --site bfarm install-app erpnext
+2026-08-04 11:27:44,879 INFO /home/beeyond/.local/bin/bench --site bfarm install-app agriculture
+2026-08-04 11:30:19,671 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:30:20,039 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:30:20,131 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:30:20,149 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:30:20,157 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 11:30:20,197 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:31:06,397 INFO /home/beeyond/.local/bin/bench setup yarn
+2026-08-04 11:31:06,405 WARNING /home/beeyond/.local/bin/bench setup yarn executed with exit code 2
+2026-08-04 11:31:23,122 INFO /home/beeyond/.local/bin/bench setup requirements
+2026-08-04 11:31:23,127 DEBUG uv pip install --quiet --upgrade pip --python /home/beeyond/frappe-bench/beeyond/env/bin/python
+2026-08-04 11:31:23,453 LOG Installing frappe
+2026-08-04 11:31:23,455 DEBUG cd /home/beeyond/frappe-bench/beeyond && uv pip install --quiet -e /home/beeyond/frappe-bench/beeyond/apps/frappe  --python /home/beeyond/frappe-bench/beeyond/env/bin/python
+2026-08-04 11:31:24,486 DEBUG cd /home/beeyond/frappe-bench/beeyond/apps/frappe && yarn install --check-files
+2026-08-04 11:31:25,388 WARNING /home/beeyond/.local/bin/bench setup requirements executed with exit code 1
+2026-08-04 11:33:52,432 INFO /home/beeyond/.local/bin/bench get-app erpnext
+2026-08-04 11:33:53,023 LOG Getting erpnext
+2026-08-04 11:33:53,024 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2026-08-04 11:34:01,388 LOG Installing erpnext
+2026-08-04 11:34:01,388 DEBUG cd /home/beeyond/frappe-bench/beeyond && uv pip install --quiet -e /home/beeyond/frappe-bench/beeyond/apps/erpnext  --python /home/beeyond/frappe-bench/beeyond/env/bin/python
+2026-08-04 11:34:01,818 DEBUG cd /home/beeyond/frappe-bench/beeyond/apps/erpnext && yarn install --check-files
+2026-08-04 11:34:25,653 DEBUG bench build --app erpnext
+2026-08-04 11:34:25,777 INFO /home/beeyond/.local/bin/bench build --app erpnext
+2026-08-04 11:34:34,904 INFO /home/beeyond/.local/bin/bench get-app agriculture
+2026-08-04 11:34:35,498 LOG Getting agriculture
+2026-08-04 11:34:35,499 DEBUG cd ./apps && git clone https://github.com/frappe/agriculture.git  --depth 1 --origin upstream
+2026-08-04 11:34:36,582 LOG Installing agriculture
+2026-08-04 11:34:36,582 DEBUG cd /home/beeyond/frappe-bench/beeyond && uv pip install --quiet -e /home/beeyond/frappe-bench/beeyond/apps/agriculture  --python /home/beeyond/frappe-bench/beeyond/env/bin/python
+2026-08-04 11:34:37,828 DEBUG bench build --app agriculture
+2026-08-04 11:34:37,956 INFO /home/beeyond/.local/bin/bench build --app agriculture
+2026-08-04 11:35:00,709 INFO /home/beeyond/.local/bin/bench --site bfarm install-app erpnext --force
+2026-08-04 11:35:56,584 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:35:57,084 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 11:35:57,139 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:35:57,152 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:35:57,182 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:35:57,187 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:36:45,550 INFO /home/beeyond/.local/bin/bench --site bfarm uninstall-app erpnext --yes
+2026-08-04 11:36:54,186 INFO /home/beeyond/.local/bin/bench --site bfarm uninstall-app agriculture --yes
+2026-08-04 11:36:58,453 INFO /home/beeyond/.local/bin/bench --site bfarm uninstall-app erpnext --yes
+2026-08-04 11:38:30,538 INFO /home/beeyond/.local/bin/bench --site bfarm install-app erpnext
+2026-08-04 11:40:15,038 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:40:15,299 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:40:15,469 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:40:15,543 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:40:15,550 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 11:40:15,552 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:42:23,504 INFO /home/beeyond/.local/bin/bench use bfarm
+2026-08-04 11:42:27,476 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:42:27,884 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:42:27,954 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 11:42:28,015 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:42:28,027 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:42:28,049 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:46:58,275 INFO /home/beeyond/.local/bin/bench set-config -g webserver_port 8000
+2026-08-04 11:46:58,832 INFO /home/beeyond/.local/bin/bench set-config -g host_name 0.0.0.0
+2026-08-04 11:47:06,437 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:47:06,881 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:47:06,912 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:47:06,921 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:47:06,929 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:47:06,930 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 11:49:20,695 INFO /home/beeyond/.local/bin/bench --site bfarm migrate
+2026-08-04 11:49:25,760 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:49:26,170 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:49:26,173 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:49:26,177 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 11:49:26,190 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:49:26,204 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:51:12,441 INFO /home/beeyond/.local/bin/bench --site bfarm list-apps
+2026-08-04 11:52:03,716 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:52:04,082 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:52:04,093 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:52:04,150 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 11:52:04,157 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:52:04,201 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:52:24,373 INFO /home/beeyond/.local/bin/bench set-config -g webserver_port 8000
+2026-08-04 11:52:24,911 INFO /home/beeyond/.local/bin/bench set-config -g host_name 0.0.0.0
+2026-08-04 11:52:29,760 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:52:30,078 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:52:30,140 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:52:30,218 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:52:30,221 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:52:30,232 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 11:53:38,581 INFO /home/beeyond/.local/bin/bench set-config -g webserver_host 0.0.0.0
+2026-08-04 11:53:39,112 INFO /home/beeyond/.local/bin/bench set-config -g webserver_port 8000
+2026-08-04 11:53:39,647 INFO /home/beeyond/.local/bin/bench use bfarm
+2026-08-04 11:53:49,220 INFO /home/beeyond/.local/bin/bench use bfarm
+2026-08-04 11:54:16,140 INFO /home/beeyond/.local/bin/bench start
+2026-08-04 11:54:16,524 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 11:54:16,534 INFO /home/beeyond/.local/bin/bench serve --port 8000
+2026-08-04 11:54:16,566 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 11:54:16,614 INFO /home/beeyond/.local/bin/bench worker
+2026-08-04 11:54:16,625 INFO /home/beeyond/.local/bin/bench watch
+2026-08-04 12:00:01,270 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-04 12:03:40,659 INFO /home/beeyond/.local/bin/bench use bfarm
+2026-08-04 12:03:41,271 INFO /home/beeyond/.local/bin/bench --site bfarm add-to-hosts 42.96.44.74
+2026-08-04 12:03:41,842 INFO /home/beeyond/.local/bin/bench setup nginx
+2026-08-04 12:04:24,904 INFO /home/beeyond/.local/bin/bench setup production beeyond --yes
+2026-08-04 12:04:24,918 DEBUG sudo /home/beeyond/.local/share/uv/tools/frappe-bench/bin/python -m pip install ansible
+2026-08-04 12:04:24,948 WARNING sudo /home/beeyond/.local/share/uv/tools/frappe-bench/bin/python -m pip install ansible executed with exit code 1
+2026-08-04 12:04:24,948 WARNING /home/beeyond/.local/bin/bench setup production beeyond --yes executed with exit code 1
+2026-08-04 12:05:59,669 INFO /home/beeyond/.local/bin/bench setup supervisor --user beeyond
+2026-08-04 12:05:59,929 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2026-08-04 12:05:59,929 LOG Updated supervisord.conf: 'chown' changed from '' to 'beeyond:beeyond'
+2026-08-04 12:06:00,477 INFO /home/beeyond/.local/bin/bench setup nginx
+2026-08-04 12:06:24,898 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:06:24,912 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:06:24,920 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 12:06:24,941 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 12:06:24,971 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 12:06:27,441 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:06:27,449 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:06:30,422 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:06:30,429 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:06:34,573 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:06:34,578 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:06:39,946 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:06:39,955 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:06:45,724 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:06:45,729 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:06:52,235 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:06:52,241 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:00,174 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:00,179 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:09,222 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:09,226 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:19,333 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:19,337 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:20,474 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:20,479 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:21,469 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:21,474 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:23,473 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:23,478 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:26,805 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:26,810 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:30,694 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:30,700 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:35,741 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:35,746 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:53,792 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:53,800 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:53,831 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 12:07:53,880 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 12:07:53,894 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 12:07:54,784 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:54,789 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:56,274 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:56,278 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:07:58,673 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:07:58,678 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:02,100 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:02,105 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:06,517 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:06,521 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:11,930 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:11,935 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:14,337 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:14,342 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:16,788 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:16,792 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:18,194 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:18,198 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:20,623 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:20,628 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:23,036 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:23,040 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:25,443 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:25,450 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:27,871 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:27,875 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:30,273 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:30,278 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:31,696 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:31,701 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:34,098 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:34,102 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:36,512 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:36,517 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:37,907 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:37,912 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:40,307 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:40,313 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:42,710 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:42,714 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:45,137 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:45,142 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:47,548 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:47,553 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:49,966 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:49,971 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:52,369 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:52,373 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:53,771 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:53,776 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:56,194 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:56,199 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:08:58,594 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:08:58,599 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:01,007 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:01,011 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:03,437 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:03,442 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:05,843 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:05,848 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:07,239 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:07,243 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:09,640 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:09,646 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:13,045 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:13,049 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:17,462 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:17,467 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:19,875 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:19,879 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:22,290 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:22,294 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:23,690 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:23,694 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:26,085 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:26,089 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:28,494 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:28,499 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:31,063 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:31,068 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:32,475 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:32,479 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:34,932 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:34,939 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:38,373 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:38,377 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:42,786 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:42,790 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:48,225 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:48,230 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:50,618 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:50,622 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:53,022 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:53,028 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:55,432 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:55,437 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:09:57,839 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:09:57,844 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:00,245 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:00,249 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:02,655 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:02,659 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:05,503 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:05,508 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:07,914 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:07,919 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:10,315 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:10,320 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:12,714 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:12,719 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:15,108 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:15,112 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:17,513 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:17,518 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:18,925 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:18,930 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:21,331 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:21,335 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:24,729 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:24,733 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:29,133 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:29,138 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:31,790 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:31,794 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:34,185 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:34,189 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:34,738 INFO /home/beeyond/.local/bin/bench config disable-default-website
+2026-08-04 12:10:34,744 WARNING /home/beeyond/.local/bin/bench config disable-default-website executed with exit code 2
+2026-08-04 12:10:35,142 INFO /home/beeyond/.local/bin/bench setup nginx
+2026-08-04 12:10:36,593 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:36,599 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:39,019 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:39,025 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:41,462 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:41,468 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:42,882 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:42,889 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:45,291 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:45,296 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:48,696 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:48,701 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:53,120 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:53,125 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:10:58,543 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:10:58,548 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:00,997 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:01,004 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:02,412 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:02,417 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:04,914 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:04,918 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:07,318 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:07,324 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:09,716 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:09,720 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:12,132 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:12,136 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:13,548 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:13,554 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:15,988 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:15,992 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:17,404 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:17,408 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:19,824 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:19,829 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:23,245 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:23,249 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:27,643 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:27,648 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:30,040 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:30,045 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:32,432 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:32,437 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:34,869 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:34,874 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:37,272 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:37,278 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:39,672 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:39,676 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:42,091 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:42,096 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:44,494 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:44,498 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:45,898 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:45,902 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:48,320 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:48,325 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:50,743 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:50,747 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:53,138 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:53,143 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:54,545 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:54,550 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:56,948 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:56,952 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:11:59,349 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:11:59,354 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:01,749 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:01,754 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:04,159 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:04,164 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:06,560 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:06,564 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:07,989 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:07,994 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:10,425 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:10,430 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:12,822 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:12,827 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:15,223 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:15,228 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:17,618 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:17,623 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:20,019 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:20,023 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:21,416 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:21,421 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:23,826 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:23,831 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:26,221 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:26,225 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:28,624 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:28,628 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:31,022 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:31,026 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:33,435 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:33,440 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:35,845 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:35,849 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:38,450 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:38,454 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:40,868 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:40,873 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:43,277 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:43,281 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:44,693 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:44,699 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:47,103 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:47,108 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:49,507 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:49,511 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:50,911 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:50,916 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:53,312 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:53,317 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:55,724 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:55,728 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:12:58,152 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:12:58,157 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:00,544 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:00,549 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:02,943 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:02,947 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:04,352 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:04,356 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:07,615 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:07,620 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:11,035 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:11,040 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:15,467 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:15,471 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:17,876 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:17,880 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:19,288 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:19,293 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:21,684 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:21,688 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:24,079 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:24,083 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:25,472 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:25,477 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:27,876 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:27,880 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:30,294 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:30,299 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:32,692 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:32,697 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:35,101 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:35,105 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:36,511 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:36,515 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:38,916 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:38,921 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:41,321 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:41,325 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:43,710 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:43,714 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:46,109 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:46,114 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:48,504 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:48,509 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:50,897 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:50,901 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:52,297 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:52,301 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:54,710 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:54,715 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:56,134 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:56,138 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:13:58,540 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:13:58,544 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:14:01,941 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:14:01,945 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:14:06,340 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:14:06,345 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:14:11,762 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:14:11,767 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:14:18,170 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:14:18,175 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:14:25,606 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:14:25,610 WARNING /home/beeyond/.local/bin/bench socketio executed with exit code 1
+2026-08-04 12:14:34,215 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:14:38,290 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:17:11,472 INFO /home/beeyond/.local/bin/bench build
+2026-08-04 12:17:47,876 INFO /home/beeyond/.local/bin/bench setup nginx
+2026-08-04 12:21:51,134 INFO /home/beeyond/.local/bin/bench --site bfarm install-app agriculate
+2026-08-04 12:22:23,336 INFO /home/beeyond/.local/bin/bench get-app apps/agriculate
+2026-08-04 12:22:23,343 LOG Getting agriculate
+2026-08-04 12:22:23,343 DEBUG cd ./apps && git clone https://github.com/apps/agriculate.git  --depth 1 --origin upstream
+2026-08-04 12:22:52,392 WARNING cd ./apps && git clone https://github.com/apps/agriculate.git  --depth 1 --origin upstream executed with exit code 128
+2026-08-04 12:22:52,393 WARNING /home/beeyond/.local/bin/bench get-app apps/agriculate executed with exit code 1
+2026-08-04 12:24:00,225 INFO /home/beeyond/.local/bin/bench --site bfarm install-app agriculture
+2026-08-04 12:24:15,739 INFO /home/beeyond/.local/bin/bench --site bfarm migrate
+2026-08-04 12:24:20,571 INFO /home/beeyond/.local/bin/bench build
+2026-08-04 12:24:35,059 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:24:35,074 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 12:24:35,138 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 12:24:35,154 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 12:27:17,280 INFO /home/beeyond/.local/bin/bench --site bfarm clear-cache
+2026-08-04 12:27:26,645 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 12:27:26,672 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 12:27:26,764 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 12:27:26,770 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:30:26,094 INFO /home/beeyond/.local/bin/bench --site bfarm install-app agriculture
+2026-08-04 12:30:36,135 INFO /home/beeyond/.local/bin/bench --site bfarm migrate
+2026-08-04 12:30:44,186 INFO /home/beeyond/.local/bin/bench build
+2026-08-04 12:30:58,059 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 12:30:58,076 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:30:58,085 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 12:30:58,139 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 12:33:37,622 INFO /home/beeyond/.local/bin/bench --site bfarm clear-cache
+2026-08-04 12:33:38,807 INFO /home/beeyond/.local/bin/bench --site bfarm migrate
+2026-08-04 12:33:46,515 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 12:33:46,558 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 12:33:46,559 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:33:46,585 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 12:41:46,997 INFO /home/beeyond/.local/bin/bench --site bfarm install-app agriculture --force
+2026-08-04 12:41:50,923 INFO /home/beeyond/.local/bin/bench --site bfarm migrate
+2026-08-04 12:41:55,435 INFO /home/beeyond/.local/bin/bench --site bfarm clear-cache
+2026-08-04 12:41:58,738 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 12:41:58,739 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 12:41:58,750 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 12:41:58,753 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 12:46:54,948 INFO /home/beeyond/.local/bin/bench use bfarm
+2026-08-04 12:46:55,480 INFO /home/beeyond/.local/bin/bench set-config -g default_site bfarm
+2026-08-04 12:47:11,931 INFO /home/beeyond/.local/bin/bench setup nginx
+2026-08-04 16:07:32,209 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 16:07:32,209 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 16:07:32,210 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 16:07:32,210 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 16:23:04,323 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-04 16:23:04,323 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-04 16:23:04,324 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-04 16:23:04,324 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-04 18:00:02,044 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-05 00:00:02,015 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-05 06:00:01,340 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-05 11:26:32,684 INFO /root/.local/bin/bench --site bfarm add-system-hostname agriflow.vn
+2026-08-05 12:00:01,797 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-05 18:00:01,242 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-06 00:00:01,819 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-06 06:00:01,647 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-06 12:00:01,905 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-06 18:00:01,825 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-07 00:00:01,421 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-07 06:00:02,087 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-07 12:00:01,242 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-07 18:00:02,014 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-08 00:00:01,590 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-08 06:00:01,893 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-08 12:00:01,291 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-08 18:00:01,928 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-09 00:00:01,819 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-09 06:00:01,339 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-09 12:00:01,584 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-09 18:00:01,933 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-10 00:00:02,155 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-10 06:00:01,514 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-10 12:00:01,494 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-10 18:00:01,910 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-11 00:00:01,180 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-11 06:00:01,437 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-11 12:00:01,619 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-11 18:00:01,899 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-12 00:00:01,524 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-12 06:00:01,871 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-12 12:00:02,131 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-12 18:00:01,676 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-13 00:00:01,354 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-13 06:00:01,770 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-13 12:00:01,960 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-13 18:00:01,372 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-14 00:00:01,747 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-14 06:00:01,883 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-14 12:00:01,911 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-14 18:00:01,273 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-15 00:00:01,641 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-15 06:00:01,881 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-15 12:00:01,338 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-15 18:00:01,477 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-16 00:00:01,869 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-16 06:00:01,378 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-16 12:00:01,511 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-16 18:00:01,801 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-17 00:00:02,046 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-17 06:00:01,455 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-17 12:00:01,500 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-17 18:00:01,794 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-18 00:00:01,955 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-18 06:00:01,437 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-18 12:00:01,703 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-18 18:00:01,295 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-19 00:00:01,604 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-19 06:00:02,057 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-19 12:00:01,274 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-19 18:00:01,750 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-20 00:00:02,251 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-20 06:00:01,752 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-20 12:00:01,142 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-20 12:05:33,698 INFO /home/beeyond/.local/bin/bench --site bfarm install-app bfarm
+2026-08-20 12:06:25,329 INFO /home/beeyond/.local/bin/bench --site bfarm install-app bfarm
+2026-08-20 12:07:35,832 INFO /home/beeyond/.local/bin/bench --site bfarm install-app bfarm
+2026-08-20 12:09:03,544 INFO /home/beeyond/.local/bin/bench --site bfarm install-app bfarm
+2026-08-20 12:10:34,814 INFO /home/beeyond/.local/bin/bench --site bfarm install-app bfarm
+2026-08-20 12:12:24,566 INFO /home/beeyond/.local/bin/bench --site bfarm install-app bfarm
+2026-08-20 12:13:50,999 INFO /home/beeyond/.local/bin/bench --site bfarm install-app bfarm
+2026-08-20 12:14:26,734 INFO /home/beeyond/.local/bin/bench --site bfarm migrate
+2026-08-20 12:14:34,147 INFO /home/beeyond/.local/bin/bench restart
+2026-08-20 12:15:01,386 DEBUG cd /home/beeyond/frappe-bench/beeyond && sudo supervisorctl restart beeyond-web:
+2026-08-20 12:15:03,519 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-20 12:15:05,306 DEBUG cd /home/beeyond/frappe-bench/beeyond && sudo supervisorctl restart beeyond-workers:
+2026-08-20 12:15:07,671 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-20 12:15:07,672 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-20 12:15:07,747 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-20 12:16:40,336 INFO /home/beeyond/.local/bin/bench --site bfarm migrate
+2026-08-20 12:16:44,266 INFO /home/beeyond/.local/bin/bench restart
+2026-08-20 12:16:44,587 DEBUG cd /home/beeyond/frappe-bench/beeyond && sudo supervisorctl restart beeyond-web:
+2026-08-20 12:16:45,885 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-20 12:16:47,716 DEBUG cd /home/beeyond/frappe-bench/beeyond && sudo supervisorctl restart beeyond-workers:
+2026-08-20 12:16:50,062 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-20 12:16:50,071 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-20 12:16:50,079 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-20 12:18:10,746 INFO /home/beeyond/.local/bin/bench build --app bfarm
+2026-08-20 12:18:59,090 INFO /home/beeyond/.local/bin/bench build --app bfarm
+2026-08-20 12:19:09,290 INFO /home/beeyond/.local/bin/bench clear-cache
+2026-08-20 12:19:10,417 INFO /home/beeyond/.local/bin/bench restart
+2026-08-20 12:19:10,752 DEBUG cd /home/beeyond/frappe-bench/beeyond && sudo supervisorctl restart beeyond-web:
+2026-08-20 12:19:12,351 INFO /home/beeyond/.local/bin/bench socketio
+2026-08-20 12:19:14,190 DEBUG cd /home/beeyond/frappe-bench/beeyond && sudo supervisorctl restart beeyond-workers:
+2026-08-20 12:19:15,490 INFO /home/beeyond/.local/bin/bench schedule
+2026-08-20 12:19:15,589 INFO /home/beeyond/.local/bin/bench worker --queue long,default,short
+2026-08-20 12:19:15,664 INFO /home/beeyond/.local/bin/bench worker --queue short,default
+2026-08-20 12:36:44,642 INFO /home/beeyond/.local/bin/bench --site bfarm migrate
+2026-08-20 12:36:48,497 INFO /home/beeyond/.local/bin/bench --site bfarm clear-cache
+2026-08-20 18:00:01,408 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-21 00:00:01,954 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-21 06:00:01,157 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-21 12:00:01,513 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-21 18:00:01,997 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-22 00:00:02,214 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-22 06:00:01,472 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-22 12:00:01,716 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-22 18:00:01,563 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-23 00:00:01,999 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-23 06:00:01,562 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-23 12:00:02,082 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-23 18:00:01,554 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-24 00:00:01,881 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-24 06:00:01,219 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-24 12:00:01,644 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-24 18:00:01,744 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-25 00:00:02,186 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-25 06:00:01,624 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-25 12:00:01,704 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-25 18:00:01,216 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-26 00:00:01,601 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-26 06:00:01,256 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-26 12:00:01,416 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-26 18:00:01,634 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-27 00:00:01,886 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-27 06:00:01,202 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-27 12:00:01,409 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-27 18:00:01,497 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-28 00:00:01,855 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-28 06:00:01,394 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-28 12:00:01,767 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-28 18:00:02,138 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-29 00:00:01,363 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-29 06:00:01,550 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-29 12:00:01,950 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-29 18:00:01,956 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-30 00:00:01,436 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-30 06:00:01,680 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-30 12:00:01,795 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-30 18:00:01,183 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-31 00:00:01,502 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-31 06:00:01,694 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-31 12:00:01,859 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-08-31 18:00:02,067 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-01 00:00:02,211 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-01 06:00:01,470 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-01 12:00:01,821 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-01 18:00:01,990 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-02 00:00:01,492 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-02 06:00:01,878 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-02 12:00:02,063 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-02 18:00:01,222 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-03 00:00:01,373 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-03 06:00:01,695 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-03 12:00:02,065 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-03 18:00:01,512 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-04 00:00:01,884 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-04 06:00:01,987 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-04 12:00:02,036 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-04 18:00:01,504 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-05 00:00:01,923 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-05 06:00:01,353 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-05 12:00:01,657 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-05 18:00:01,368 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-06 00:00:01,712 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-06 06:00:02,061 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-06 12:00:01,431 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-06 18:00:01,619 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-07 00:00:01,988 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
+2026-09-07 06:00:01,493 INFO /home/beeyond/.local/bin/bench --verbose --site all backup
