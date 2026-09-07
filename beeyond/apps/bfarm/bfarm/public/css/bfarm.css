@@ -1,0 +1,134 @@
+/* Custom Styling for Bfarm Agriculture */
+
+/* Cải thiện giao diện thanh Navbar */
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e8f5e9 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02) !important;
+}
+
+.bfarm-brand-container img {
+    height: 28px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.bfarm-brand-container:hover img {
+    transform: scale(1.05);
+}
+
+.app-logo {
+    height: 28px !important;
+    width: auto !important;
+}
+
+/* Custom logo cho Workspace Dock Rail */
+.workspace-dock-logo img, .workspace-dock-logo a img {
+    content: url("/assets/bfarm/images/logo.png") !important;
+    max-height: 28px !important;
+    max-width: 28px !important;
+    object-fit: contain !important;
+}
+
+@keyframes leafPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); color: #2e7d32; }
+    100% { transform: scale(1); }
+}
+
+/* Tùy chỉnh hover card trong Workspace */
+.widget-card {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    border: 1px solid #f1f8e9 !important;
+}
+
+.widget-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(46, 125, 50, 0.08) !important;
+    border-color: #c8e6c9 !important;
+}
+
+.widget-card .widget-head .widget-title {
+    color: #1b5e20 !important;
+    font-weight: 600 !important;
+}
+
+/* Các link nhỏ trong card */
+.widget-link {
+    transition: padding-left 0.2s ease, color 0.2s ease !important;
+}
+
+.widget-link:hover {
+    padding-left: 6px !important;
+    color: #0284c7 !important;
+    background-color: #f0f9ff !important;
+    border-radius: 4px;
+}
+
+/* Custom Login Page Styling - Trả về màu nền mặc định gốc của hệ thống */
+.for-login, .for-email-login, .for-signup, .for-forgot, .for-login-with-email-link {
+    /* Trả về màu nền mặc định của Frappe Framework */
+}
+
+.login-content.page-card {
+    border-radius: 16px !important;
+    box-shadow: 0 10px 25px -5px rgba(2, 132, 199, 0.1), 0 8px 10px -6px rgba(2, 132, 199, 0.05) !important;
+    border: 1px solid #bae6fd !important;
+    background: #ffffff !important;
+    padding: 32px !important;
+}
+
+.login-content .app-logo {
+    content: url("/assets/bfarm/images/logo.png") !important;
+    height: 48px !important;
+    width: auto !important;
+    object-fit: contain !important;
+    margin-bottom: 8px;
+}
+
+/* Nút bấm Đăng nhập chính - Màu Xanh Biển chủ đạo */
+.login-content .es-button[data-variant="solid"],
+.login-content button[type="submit"] {
+    background-color: #0284c7 !important;
+    background-image: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease-in-out !important;
+    box-shadow: 0 4px 6px -1px rgba(2, 132, 199, 0.25) !important;
+}
+
+.login-content .es-button[data-variant="solid"]:hover,
+.login-content button[type="submit"]:hover {
+    background-color: #0369a1 !important;
+    box-shadow: 0 6px 12px -2px rgba(2, 132, 199, 0.35) !important;
+    transform: translateY(-1px);
+}
+
+/* Nút tùy chọn phụ (như Login with Email Link) */
+.login-content .btn-login-option {
+    background-color: #f0f9ff !important;
+    color: #0369a1 !important;
+    border: 1px solid #bae6fd !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+.login-content .btn-login-option:hover {
+    background-color: #e0f2fe !important;
+    color: #0284c7 !important;
+}
+
+/* Ô nhập liệu Input Email & Password */
+.login-content .form-control:focus {
+    border-color: #0284c7 !important;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15) !important;
+}
+
+/* Link màu Xanh Biển */
+.login-content a, .login-content .text-ink-gray-5:hover, .login-content .text-ink-gray-6:hover {
+    color: #0284c7 !important;
+}

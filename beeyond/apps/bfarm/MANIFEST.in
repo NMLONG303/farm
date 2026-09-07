@@ -1,0 +1,10 @@
+include manuscript.txt
+recursive-include bfarm *.html
+recursive-include bfarm *.txt
+recursive-include bfarm *.js
+recursive-include bfarm *.css
+recursive-include bfarm *.png
+recursive-include bfarm *.jpg
+recursive-include bfarm *.svg
+recursive-include bfarm *.json
+recursive-include bfarm *.csv

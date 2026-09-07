@@ -1,0 +1,330 @@
+{% from "templates/includes/login/macros.html" import alert_banner %}
+{% extends "templates/web.html" %}
+
+{% block navbar %}
+{% if show_language_picker %}
+    {{ super() }}
+{% endif %}
+{% endblock %}
+
+{% block head_include %}
+{{ include_style('login.bundle.css') }}
+<style>
+/* Custom Login Page Styling - Giữ nguyên màu nền gốc mặc định của hệ thống */
+
+.login-content.page-card {
+    border-radius: 16px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+    border: 1px solid #e5e7eb !important;
+    background: #ffffff !important;
+    padding: 32px !important;
+}
+
+.login-content .app-logo {
+    content: url("/assets/bfarm/images/logo.png") !important;
+    height: 52px !important;
+    width: auto !important;
+    object-fit: contain !important;
+    margin-bottom: 8px;
+}
+
+/* Nút bấm Đăng nhập chính - Màu Xanh Biển */
+.login-content .es-button[data-variant="solid"],
+.login-content button[type="submit"],
+.login-content .btn-primary {
+    background-color: #0284c7 !important;
+    background-image: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 10px 16px !important;
+    transition: all 0.2s ease-in-out !important;
+    box-shadow: 0 4px 6px -1px rgba(2, 132, 199, 0.25) !important;
+}
+
+.login-content .es-button[data-variant="solid"]:hover,
+.login-content button[type="submit"]:hover,
+.login-content .btn-primary:hover {
+    background-color: #0369a1 !important;
+    box-shadow: 0 6px 12px -2px rgba(2, 132, 199, 0.35) !important;
+    transform: translateY(-1px);
+}
+
+/* Nút tùy chọn phụ (Email Link) */
+.login-content .btn-login-option {
+    background-color: #f0f9ff !important;
+    color: #0369a1 !important;
+    border: 1px solid #bae6fd !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+.login-content .btn-login-option:hover {
+    background-color: #e0f2fe !important;
+    color: #0284c7 !important;
+}
+
+/* Ô nhập liệu */
+.login-content .form-control:focus {
+    border-color: #0284c7 !important;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15) !important;
+}
+
+/* Link màu Xanh Biển */
+.login-content a, .login-content .text-ink-gray-5:hover, .login-content .text-ink-gray-6:hover {
+    color: #0284c7 !important;
+}
+</style>
+<script>
+(function() {
+    function translateLogin() {
+        // Ngừng scanner vĩnh viễn ngay khi form login không còn trên DOM
+        // (sau đăng nhập thành công body bị thay bằng splash_screen) -> tiết kiệm CPU, tránh jank trên trình duyệt yếu
+        if (!document.querySelector(".login-content")) {
+            if (window.__bfarm_login_timer) {
+                clearInterval(window.__bfarm_login_timer);
+                window.__bfarm_login_timer = null;
+            }
+            return;
+        }
+        var map = {
+            "Sign In": "Đăng nhập",
+            "Welcome! Please sign in to continue.": "Chào mừng bạn! Vui lòng đăng nhập để tiếp tục.",
+            "Email": "Email",
+            "Password": "Mật khẩu",
+            "Forgot password?": "Quên mật khẩu?",
+            "Continue": "Đăng nhập",
+            "Login with Email Link": "Đăng nhập bằng liên kết Email",
+            "Don't have an account?": "Chưa có tài khoản?",
+            "Sign up": "Đăng ký",
+            "Back to sign in": "Quay lại đăng nhập",
+            "Send Link": "Gửi liên kết",
+            "Send login link": "Gửi liên kết đăng nhập",
+            "Forgot Password?": "Quên mật khẩu?",
+            "Please enter your email, we'll send you password reset link": "Vui lòng nhập email, chúng tôi sẽ gửi liên kết đặt lại mật khẩu cho bạn."
+        };
+        var elems = document.querySelectorAll('.login-content h4, .login-content p, .login-content label, .login-content button, .login-content a, .es-button');
+        elems.forEach(function(el) {
+            var txt = el.textContent.trim();
+            if (map[txt]) {
+                el.textContent = map[txt];
+            }
+        });
+    }
+    // Xóa session_last_route cũ ngay khi ở trang login
+    try {
+        localStorage.removeItem("session_last_route");
+        localStorage.removeItem("frappe_last_route");
+    } catch(e) {}
+    document.addEventListener('DOMContentLoaded', translateLogin);
+    window.__bfarm_login_timer = setInterval(translateLogin, 200);
+})();
+</script>
+{% endblock %}
+
+{% macro email_login_body() -%}
+{% if not disable_user_pass_login or (ldap_settings and ldap_settings.enabled) %}
+<div class="page-card-body flex flex-col gap-4">
+	{{ alert_banner("error") }}
+	<div class="form-group flex flex-col items-start gap-1.5 mb-0">
+		<label class="text-base text-ink-gray-5 w-full mb-0" for="login_email">Email</label>
+		<div class="email-field">
+			<input type="text" id="login_email" class="form-control"
+				placeholder="nhap_email@gmail.com"
+				required autofocus autocomplete="username">
+		</div>
+		<p class="field-error text-base text-ink-red-8 mb-0"></p>
+	</div>
+
+	<div class="form-group flex flex-col items-start gap-2 mb-0">
+		<div class="flex flex-col items-start gap-1.5 w-full">
+			<label class="text-base text-ink-gray-5 w-full mb-0" for="login_password">Mật khẩu</label>
+			<div class="password-field">
+				<input type="password" id="login_password" class="form-control" placeholder="••••••••"
+					autocomplete="current-password" required>
+
+				<svg toggle="#login_password" class="icon icon-sm toggle-password" xmlns="http://www.w3.org/2000/svg">
+						<use href="#icon-eye"></use>
+					</svg>
+			</div>
+			<p class="field-error text-base text-ink-red-8 mb-0"></p>
+		</div>
+		{% if not disable_user_pass_login %}
+		<p class="text-lg text-right w-full mb-0">
+			<a href="#forgot" class="text-base text-ink-gray-5">Quên mật khẩu?</a>
+		</p>
+		{% endif %}
+	</div>
+</div>
+{% endif %}
+<div class="page-card-actions flex flex-col gap-3">
+	{% if not disable_user_pass_login %}
+	<button class="es-button w-full" data-variant="solid" type="submit">
+		Đăng nhập</button>
+	{% endif %}
+	{% if ldap_settings and ldap_settings.enabled %}
+	<button class="es-button w-full btn-ldap-login" data-variant="solid">
+		Đăng nhập bằng LDAP</button>
+	{% endif %}
+	{% if login_with_email_link %}
+	<a href="#login-with-email-link"
+		class="es-button w-full btn-login-option btn-login-with-email-link">
+		Đăng nhập bằng liên kết Email</a>
+	{% endif %}
+	{% if social_login %}
+	<div class="social-logins text-center text-base">
+		<div class="social-login-buttons">
+			{% for provider in provider_logins %}
+			<div class="login-button-wrapper">
+				<a href="{{ provider.auth_url }}"
+					class="es-button w-full btn-login-option btn-{{ provider.name }}">
+					{% if provider.icon %}
+						{{ provider.icon }}
+					{% endif %}
+					Đăng nhập với {{ provider.provider_name }}</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	{% endif %}
+</div>
+{% endmacro %}
+
+{% macro logo_section(title=null, subtitle=null) %}
+<div class="page-card-head flex flex-col items-start gap-4 text-left">
+	<img class="app-logo" src="/assets/bfarm/images/logo.png" alt="Bfarm Logo">
+	<div class="page-card-head-text flex flex-col gap-1.5 w-full">
+		<h4 class="text-3xl-bold text-ink-gray-9 w-full mt-0 mb-0">{{ title or "Đăng nhập" }}</h4>
+		{% if subtitle %}
+		<p class="page-card-subtitle text-p-base text-ink-gray-6 mb-0">{{ subtitle }}</p>
+		{% endif %}
+	</div>
+</div>
+{% endmacro %}
+
+{% block page_content %}
+<div>
+	<noscript>
+		<div class="text-center my-5">
+			<h4>Trình duyệt của bạn đang tắt JavaScript</h4>
+			<p class="text-muted">Bạn cần bật JavaScript để ứng dụng hoạt động.</p>
+		</div>
+	</noscript>
+	<section class='for-login'>
+		<div class="login-content page-card flex flex-col gap-5">
+			{{ logo_section("Đăng nhập", "Chào mừng bạn! Vui lòng đăng nhập để tiếp tục.") }}
+			<form class="form-signin form-login flex flex-col gap-8" role="form" novalidate>
+				{{ email_login_body() }}
+			</form>
+			{%- if not disable_signup and not disable_user_pass_login -%}
+			<div class="text-center sign-up-message text-p-sm text-ink-gray-6 mt-auto mb-0">
+				Chưa có tài khoản?
+				<a href="#signup" class="text-p-sm-semibold text-ink-gray-6">Đăng ký</a>
+			</div>
+			{%- endif -%}
+		</div>
+	</section>
+
+	{%- if social_login -%}
+	<section class='for-email-login'>
+		<div class="login-content page-card flex flex-col gap-5">
+			{{ logo_section("Đăng nhập", "Chào mừng bạn! Vui lòng đăng nhập để tiếp tục.") }}
+			<form class="form-signin form-login flex flex-col gap-8" role="form" novalidate>
+			{{ email_login_body() }}
+			</form>
+			{%- if not disable_signup and not disable_user_pass_login -%}
+			<div class="text-center sign-up-message text-p-sm text-ink-gray-6 mt-auto mb-0">
+				Chưa có tài khoản?
+				<a href="#signup" class="text-p-sm-semibold text-ink-gray-6">Đăng ký</a>
+			</div>
+			{%- endif -%}
+		</div>
+	</section>
+	{%- endif -%}
+
+	<section class='for-signup {{ "signup-disabled" if disable_signup else "" }}'>
+		<div class="login-content page-card flex flex-col gap-5">
+			{{ logo_section("Đăng ký tài khoản", "Cùng thiết lập tài khoản của bạn.") }}
+			{%- if not disable_signup -%}
+			{{ signup_form_template }}
+			{%- else -%}
+			<div class="signup-disabled-message">
+				<span class='indicator gray'>Đăng ký đã bị tắt</span>
+				<p class="text-muted text-normal sign-up-message mt-1 mb-8">Tính năng đăng ký tài khoản đã bị vô hiệu hóa trên hệ thống này.</p>
+				<div><a href='/' class='es-button' data-variant="solid">Trang chủ</a></div>
+			</div>
+			{%- endif -%}
+		</div>
+	</section>
+
+	<section class='for-forgot'>
+		<div class="login-content page-card flex flex-col gap-5">
+			{{ logo_section("Quên mật khẩu?", "Vui lòng nhập email, chúng tôi sẽ gửi liên kết đặt lại mật khẩu cho bạn.") }}
+			<form class="form-signin form-forgot hide flex flex-col gap-8" role="form" novalidate>
+				<div class="page-card-body flex flex-col gap-4">
+					{{ alert_banner("success") }}
+					{{ alert_banner("error") }}
+					<div class="form-group flex flex-col items-start gap-1.5 mb-0">
+						<label class="text-base text-ink-gray-5 w-full mb-0" for="forgot_email">Email</label>
+						<div class="email-field">
+							<input type="email" id="forgot_email" class="form-control"
+								placeholder="nhap_email@gmail.com" required autofocus autocomplete="username">
+						</div>
+						<p class="field-error text-base text-ink-red-8 mb-0"></p>
+					</div>
+				</div>
+				<div class="page-card-actions flex flex-col gap-3">
+					<button class="es-button w-full btn-forgot" data-variant="solid"
+						type="submit" disabled>Gửi liên kết</button>
+				</div>
+			</form>
+			<div class="text-center sign-up-message text-p-sm text-ink-gray-6 mt-auto mb-0">
+				<a href="#login" class="text-p-sm-semibold text-ink-gray-6">Quay lại đăng nhập</a>
+			</div>
+		</div>
+	</section>
+
+	<section class='for-login-with-email-link'>
+		<div class="login-content page-card flex flex-col gap-5">
+			{{ logo_section("Đăng nhập", "Chào mừng bạn! Vui lòng đăng nhập để tiếp tục.") }}
+			<form class="form-signin form-login-with-email-link hide flex flex-col gap-8" role="form" novalidate>
+				<div class="page-card-body flex flex-col gap-4">
+					{{ alert_banner("success", "Vui lòng kiểm tra email của bạn.") }}
+					{{ alert_banner("error") }}
+					<div class="form-group flex flex-col items-start gap-1.5 mb-0">
+						<label class="text-base text-ink-gray-5 w-full mb-0" for="login_with_email_link_email">Email</label>
+						<div class="email-field">
+							<input type="email" id="login_with_email_link_email" class="form-control"
+								placeholder="nhap_email@gmail.com" required autofocus autocomplete="username">
+						</div>
+						<p class="field-error text-base text-ink-red-8 mb-0"></p>
+					</div>
+				</div>
+				<div class="page-card-actions flex flex-col gap-3">
+					<p class="resend-link hidden flex items-center gap-2 w-full text-base text-ink-gray-6 mb-0">
+						Chưa nhận được liên kết? <a href="#" class="btn-resend-link text-base-semibold text-ink-gray-6">Gửi lại</a>
+					</p>
+					<button class="es-button w-full btn-login-with-email-link" data-variant="solid"
+						type="submit">Gửi liên kết đăng nhập</button>
+					<a href="#login" class="es-button w-full btn-login-option">
+						Đăng nhập bằng mật khẩu</a>
+				</div>
+			</form>
+			{%- if not disable_signup -%}
+			<div class="text-center sign-up-message text-p-sm text-ink-gray-6 mt-auto mb-0">
+				Chưa có tài khoản?
+				<a href="#signup" class="text-p-sm-semibold text-ink-gray-6">Đăng ký</a>
+			</div>
+			{%- endif -%}
+		</div>
+	</section>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>{% include "templates/includes/login/login.js" %}</script>
+{% endblock %}
+
+{% block sidebar %}{% endblock %}

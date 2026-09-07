@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: bfarm
+Version: 0.0.1
+Summary: Bfarm Agriculture Customization
+Author: Beeyond
+Author-email: contact@beeyond.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
